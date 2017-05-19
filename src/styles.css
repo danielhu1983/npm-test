@@ -1,1 +1,162 @@
-/* You can add global styles to this file, and also import other style files */
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+ol, ul {
+    -webkit-margin-start: 0px;
+    -webkit-margin-before: 0px;
+    -webkit-padding-start: 0px;
+    list-style: none;
+}
+
+header {
+    top: 0px;
+    width: 100%;
+    background-color: rgb(220, 220, 220)
+}
+
+header .logo {
+    width: 154px;
+    height: 36px;
+    background-image: url('./logo-nav.png');
+    background-repeat: no-repeat;
+}
+
+header > ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0px;
+}
+
+header > ul > li {
+    display: inline-block;
+    height: 46px;
+    line-height: 46px;
+}
+
+.h1class {
+	background: #EE3D11;
+	top: 0;
+	
+	
+}
+.h1div {
+	
+}
+.headerlink {
+margin-left:auto;
+margin-right:10px;
+margin-top: 0;
+width: 80px;
+
+}
+/* important thing is the float, if element floated, it will not adjusted to the normal text. */
+.navbar-brand {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover {
+    text-decoration: none;
+}
+
+div.main {
+    position: relative;
+    padding-top: 56px;
+    padding-bottom: 20px;
+}
+
+.main .left-sidebar {
+    width: 120px;
+    position: absolute;
+    left: 0px;
+    top: 56px;
+    padding: 0.5em;
+}
+
+main {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-left: 120px;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    -webkit-padding-start: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer > ul {
+    -webkit-padding-start: 0px;
+    list-style: none;
+    margin: 0px;
+}
+
+footer > ul > li {
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+
+.card-header-pills{
+    margin-right: -.625rem;
+    margin-left: -.625rem;
+}
+
+.myButton {
+    float: left; 
+    margin-right: 20px; 
+    margin-top:10px;
+}
+.fakeDialog { 
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    overflow: hidden; 
+    clear:both;
+    box-shadow: 4px 2px 6px #D1EEEE,
+                -4px -2px 6px #C7C7C7,
+                0px 0px 12px 5px #C1CDC1 inset;
+}
+
+.section-radio {
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 200px;
+    padding: 10px;
+}
+
+.section-checkbox {
+    float: left;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    padding: 10px;
+}
+
+.section-button {
+    padding: 20px;
+    margin-left: 150px;
+    margin-top: 20px;
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    display: table;
+}
+
+.section-dropdown {
+    padding: 20px;
+    float: left;
+    width: 500px;
+}

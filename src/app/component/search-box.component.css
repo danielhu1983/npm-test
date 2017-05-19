@@ -1,0 +1,21 @@
+
+.search-result{
+  border-bottom: 1px solid gray;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  width:auto;
+  height: 20px;
+  padding: 8px;
+  background-color: white;
+  cursor: pointer;
+  padding-top: 25px;
+}
+.search-box{
+  width: 200px;
+  height: 20px;
+}
+
+.search{
+	left: 100px;
+	padding-top: 20px;
+}
